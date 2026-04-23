@@ -443,7 +443,7 @@ nav {
   color: var(--primary-color);
 }
 
-/* Footer Photo Section */
+/* Lower Photo Section */
 .about-photo-footer-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -457,6 +457,54 @@ nav {
   border-radius: var(--radius-md);
   box-shadow: var(--image-shadow);
   object-fit: cover !important;
+}
+
+/* ==========================================
+   Contact Page
+   ========================================== */
+.contact-section {
+  margin-top: -2rem;
+}
+
+/* Contact Grid */
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1.05fr 2fr;
+  gap: 3rem;
+}
+
+.contact-grid-item img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-md);
+  box-shadow: var(--image-shadow);
+}
+
+.contact-section h1 {
+  font-size: 2.7rem;
+  color: var(--primary-color);
+}
+
+.contact-grid-item p {
+  font-size: 1.3rem;
+  line-height: 1.4;
+  color: var(--primary-color);
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-top: 2rem;
+}
+
+.contact-section a {
+  font-size: 1.6rem;
+  color: var(--primary-color);
+  margin-top: 3rem;
+}
+
+.contact-section a:hover {
+  color: var(--secondary-color);
 }
 
 /* ==========================================
