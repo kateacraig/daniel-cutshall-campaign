@@ -138,7 +138,8 @@ h3 {
 
 /* Buttons */
 .btn {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
+  border: 1.5px solid var(--primary-color);
   color: var(--white) !important;
   height: 50px;
   width: 250px;
@@ -154,8 +155,8 @@ h3 {
 }
 
 .btn:hover {
-  background-color: var(--secondary-color);
-  border: 1.5px solid var(--primary-color);
+  background-color: var(--primary-color);
+  border: 1.5px solid var(--secondary-color);
   color: var(--white) !important;
 }
 
@@ -178,6 +179,53 @@ h3 {
   background-color: var(--white);
   border: 1.5px solid var(--primary-color);
   color: var(--primary-color) !important;
+}
+
+.btn-election {
+  background-color: var(--primary-color);
+  border: 1.5px solid var(--secondary-color);
+  color: var(--white) !important;
+  height: 50px;
+  width: 260px;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.btn-election:hover {
+  background-color: var(--secondary-color);
+  border: 1.5px solid var(--primary-color);
+  color: var(--white) !important;
+}
+
+.btn-registration {
+  background-color: var(--secondary-color);
+  border: 1.5px solid var(--primary-color);
+  color: var(--white) !important;
+  height: 50px;
+  width: 325px;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  margin: 0 auto;
+}
+
+.btn-registration:hover {
+  background-color: var(--primary-color);
+  border: 1.5px solid var(--secondary-color);
+  color: var(--white) !important;
 }
 
 .btn-donate-footer {
@@ -457,6 +505,110 @@ nav {
   border-radius: var(--radius-md);
   box-shadow: var(--image-shadow);
   object-fit: cover !important;
+}
+
+/* ==========================================
+   Election Page
+   ========================================== */
+/* Daniel Statement */
+.daniel-statement-section {
+  margin-top: -4rem;
+}
+
+.daniel-statement-section h2 {
+  font-size: 2.7rem;
+  color: var(--primary-color);
+}
+
+.daniel-statement-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+}
+
+.daniel-statement-grid-item img {
+  width: 300px;
+  height: auto;
+  border-radius: var(--radius-md);
+  box-shadow: var(--image-shadow);
+}
+
+.daniel-statement-grid-item p {
+  font-size: 1.3rem;
+  line-height: 1.4;
+  color: var(--primary-color);
+}
+
+.name {
+  text-align: right;
+  font-style: italic;
+  color: var(--secondary-color) !important;
+}
+
+/* Election Section */
+.election-section {
+  margin-top: -6rem;
+}
+
+.election-section h1 {
+  font-size: 2.7rem;
+  color: var(--primary-color);
+}
+
+.election-section p {
+  font-size: 1.3rem;
+  line-height: 1.4;
+  color: var(--primary-color);
+}
+
+/* Election Grid */
+.election-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.election-grid-item {
+  padding: 1rem;
+  border: solid 1px var(--secondary-color);
+  border-radius: var(--radius-md);
+  box-shadow: var(--card-shadow);
+  text-align: center;
+}
+
+.election-grid-item h3 {
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+/* Voter Registration */
+.voting-section {
+  margin-top: -6rem;
+}
+
+.voting-section h2 {
+  font-size: 2.7rem;
+  color: var(--primary-color);
+}
+
+.voting-section p {
+  font-size: 1.3rem;
+  line-height: 1.4;
+  color: var(--primary-color);
+}
+
+.voter-registration-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.voter-registration-btn-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
 }
 
 /* ==========================================
