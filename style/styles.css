@@ -572,6 +572,16 @@ nav {
   display: inline-block;
 }
 
+/* Experience Section */
+.experience-section {
+  margin-top: -6rem;
+}
+
+.experience-section h2 {
+  font-size: 2.3rem;
+  color: var(--primary-color);
+}
+
 /* ==========================================
    Election Page
    ========================================== */
